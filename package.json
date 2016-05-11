@@ -1,0 +1,24 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "service that parses unix or natural language dates and returns JSON with unix timestamp and natural lan date",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quininez/timestamp_microservice.git"
+  },
+  "author": "vali cotea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quininez/timestamp_microservice/issues"
+  },
+  "homepage": "https://github.com/quininez/timestamp_microservice#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "moment": "^2.13.0"
+  }
+}
