@@ -16,7 +16,7 @@ app.get('/:time', function(req,res){
     date = moment(unixtime * 1000);
   } else {
     date = moment(req.params.time);
-    unixtime = date.format('x');
+    unixtime = date.format('x') / 1000;
   }
    
   naturaldate = date.format('MMMM DD, YYYY');
